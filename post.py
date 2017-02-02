@@ -8,7 +8,7 @@ if __name__ == '__main__':    #only execute this in the main thread
 
     HOST = 'http://weixin.sogou.com/'
 
-    key_word = "咪蒙"
+    key_word = "咪蒙" 
     entry = HOST + "weixin?type=2&query=" + key_word + "&page={}"
 
     import requests as req
